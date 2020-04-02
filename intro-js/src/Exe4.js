@@ -5,7 +5,14 @@
  * @return {Number} o menor valor.
  */
 function acharMenor(vetor) {
-    
+    let vetorLen;
+    vetorLen = vetor.length;
+    let menor = NaN
+    for (i = 0; i < vetorLen; i++) {
+        if (i < menor) {
+            menor = i
+        }
+    }
 }
 
 /**
